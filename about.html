@@ -6,15 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Bordalo Pinheiro</title>
     <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .container {
+        display: grid;
+        grid-template-areas:
+          "header header"
+          "menu content"
+          "footer footer";
+        grid-template-columns: 1fr 3fr;
+        gap: 5px;
+        background-color: #1dc164;
+        padding: 5px;
+      }
+      .container > div {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+      }
+      .container > div.header {
+        grid-area: header;
+        text-align: center;
+      }
+      .container > div.menu {
+        grid-area: menu;
+      }
+      .container > div.content {
+        grid-area: content;
+      }
+      .container > div.footer {
+        grid-area: footer;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 6fr fr;
+        grid-template-rows: 2fr 3fr 5fr;
+        gap: 5px;
+
+        padding: 7px;
+      }
+      </style>
+
   </head>
 <!-- Vs Code Pets, Tamagotchi, Stardew Pets, Bongo Cat-->
   <!-- this is how you write a comment describing your code in HTML. the body section is for all content that is visible. Keep it here! Semantic structure is just as important as syntax. -->
   <body>
-    <h1>About</h1>
-    <h2>A very Cool Website</h2>
-    <h3>^ This is a fact</h3>
-    <p>Hello world, this is the website of the Bordalo Pinheiro Archive. </p>
-    <div><a href="about.html">About</a></div>
-    <img src="images/Screaming Final_.png"  /> 
+    <div><a href="index.html"><img src="images/Home Frog.png" alt="home frog"></a></div>
+    <br>
+    
+    <h1>Grid Test</h1>
+<div class="container">
+  <div class="header"><h2>About Bordalo Pinheiro</h2></div>
+  <div class="menu"><a href="#">Ceramics</a><br><a href="#">Resources</a><br><a href="#">Brand Board</a></div>
+  <div class="content"><h3>Testing out grids</h3><p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ridiculus sit nisl laoreet facilisis aliquet. Potenti dignissim litora eget montes rhoncus sapien neque urna. Cursus libero sapien integer magnis ligula lobortis quam ut.</p></div>
+  <div class="footer"><h4>Footer</h4></div>
+</div>  
   </body>
 </html>
