@@ -8,17 +8,55 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">
     <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">
+    <style>
+      ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #FFC802;
+      }
+      ul.breadcrumb li {
+        display: inline;
+        font-size: 18px;
+      }
+      ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+      }
+      ul.breadcrumb li a {
+        color: #006437;
+        text-decoration: none;
+      }
+      ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+      }
+      </style>
   </head>
 
   <body>
-    <div><a href="index.html"><img src="images/Home Frog.png" alt="home frog"></a></div>
+    <div style="position: absolute; top: 10px; left: 10px;">
+      <a href="home.html"><img src="images/Home Frog.png" alt="home frog"></a>
+    </div>
     <br>
     <h1>Farm Animals</h1>
-    
+    <ul class="breadcrumb">
+      <li><a href="ceramics.html">Ceramics</a></li>
+      <li><a href="animals.html">Farm Animals</a></li>
+    </ul>
     <p>In Portugal most peoples roots and family background would be farming. Still to this day many people are farmers as their occupation, raising livestock, and growing their own vegetables and fruits. Either selling them or keeping them for their own use. Farm animals such as sheep and goats are commonly seen crossing the roads with shepherds or grazing the fields in the countryside. It’s common to hear stories of how grandparents might have ridden donkeys to school or to sell produce in the city. Bordalo Pinheiro highlights the importance of these farm animals by creating a variation of ceramics such as statement pieces or even something as simple as toothpick dispensers. It’s common to find these in countryside properties, often decorating the walls of farmers homes. They’re a symbol of the humble beginnings of the average Portuguese citizen. 
     </p>
     <p2>Em Portugal a maioridade das pessoas vem de famílias que antecedentemente eram agricultores. Até hoje muitas pessoas trabalham como agricultores, a criar animais ou vegetais e frutas. Normalmente para vender ou comer. Animais de quinta como ovelhas e cabras são comuns de ver a passar a estrada com um pastor ou pastando nos campos. É comum ouvir histórias dos avós que quando eram mais novos andarem de burro para a escola ou para vender produto na cidade. O Bordalo Pinheiro destaca a importância dos animais da quinta quando ele cria uma variedade de cerâmicas como uma peça de declaração ou alguma coisa simples como um porta palito. É comum encontrar estas cerâmicas em propriedades do campo normalmente a decorar as paredes da casa de um agricultor. São um símbolo dos humildes começos do povo Portugues.
     </p2>
 
-    
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
+      <img src="images/BullCeramic.jpg" alt="Fish 1" style="width: 100%; height: auto;">
+      <img src="images/HorseCeramic.jpg" alt="Fish 2" style="width: 100%; height: auto;">
+      <img src="images/DonkeyCeramic.jpg" alt="Fish 3" style="width: 100%; height: auto;">
+    </div>  
+
+    <img src="images/sheep.gif" alt="sheep 1" style="position: absolute; top: 80%; right: -1px; transform: translateY(-50%); width: 150px; height: auto;">
+    <img src="images/sheep2.gif" alt="sheep 2" style="position: absolute; top: 90%; left: 1px; transform: translateY(-50%); width: 150px; height: auto;">
+    <img src="images/donkey.gif" alt="sheep 1" style="position: absolute; top: 190%; right: 100px; transform: translateY(-50%); width: 150px; height: auto;">
+
   </body>

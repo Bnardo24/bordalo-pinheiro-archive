@@ -10,19 +10,60 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.gif">
     <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">
     <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">
+    <style>
+      ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #FFC802;
+      }
+      ul.breadcrumb li {
+        display: inline;
+        font-size: 18px;
+      }
+      ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+      }
+      ul.breadcrumb li a {
+        color: #006437;
+        text-decoration: none;
+      }
+      ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+      }
+      </style>
   </head>
 
 
     
-    <div><a href="index.html"><img src="images/Home Frog.png" alt="home frog"></a></div>
+  <div style="position: absolute; top: 10px; left: 10px;">
+    <a href="home.html"><img src="images/Home Frog.png" alt="home frog"></a>
+  </div>
     <br>
     <h1>Fruit</h1>
-    
+    <ul class="breadcrumb">
+      <li><a href="ceramics.html">Ceramics</a></li>
+      <li><a href="fruit.html">Fruit</a></li>
+    </ul>
     <p>In Portugal one of the scenic elements you will often see will be the various fruit trees lined in rows along vast fields all year round. They bring a certain color to the fields on the hills. This brings a sense of tranquility and familiarity. Due to the tropical climate many tropical fruits are grown both on the mainland and islands. Fruits of various kinds are common in Portuguese cuisine and are sold fresh at markets in almost every city in the country. Bordalo Pinheiro takes inspiration from these colourful plants to create bowls of various shapes and sizes. It’s such a simple idea and design but it brightens up the table and has a positive effect on everyone, making the overall experience more fun. 
 
     </p>
 
     <p2>Em portugal um dos elementos mais cénicos que se vê regularmente e as várias árvores de fruta alinhadas nos campos, o ano inteiro. As árvores trazem uma certa cor aos campos ao longo das colinas. Isto evoca sempre um sentido de tranquilidade e familiaridade. Por causa do clima tropical muitas frutas tropicais crescem em Portugal, nas ilhas e no continente.  Frutas de vários tipos são comuns na cozinha Portuguesa, e são vendidas frescas em mercados em quase todas as cidades de Portugal. O Bordalo Pinheiro tira inspiração destas plantas coloridas e cria tigelas de várias formas e tamanhos. E uma ideia tao simples mas ilumina 
 </p2>
+<br>
+<br>
+<br>
+<br>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
+  <img src="images/kiwiceramic.jpg" alt="Fruit 1" style="width: 100%; height: auto;">
+  <img src="images/coconutceramic.jpg" alt="Fruit 2" style="width: 100%; height: auto;">
+  <img src="images/papayaceramic.jpg" alt="Fruit 3" style="width: 100%; height: auto;">
+  <img src="images/dragonfruitceramic.jpg" alt="Fruit 4" style="width: 100%; height: auto;">
+</div>
 
+<img src="images/orange.gif" alt="orange" style="position: absolute; top: 50%; right: -20px; transform: translateY(-50%); width: 150px; height: auto;">
+<img src="images/cherry.gif" alt="cherry" style="position: absolute; top: 50%; left: -20px; transform: translateY(-50%); width: 150px; height: auto;">
   </body>

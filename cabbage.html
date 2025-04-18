@@ -9,16 +9,54 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.gif">
     <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">
     <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">
-
+    <style>
+      ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #FFC802;
+      }
+      ul.breadcrumb li {
+        display: inline;
+        font-size: 18px;
+      }
+      ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+      }
+      ul.breadcrumb li a {
+        color: #006437;
+        text-decoration: none;
+      }
+      ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+      }
+      </style>
   </head>
 
   <body>
-    <div><a href="index.html"><img src="images/Home Frog.png" alt="home frog"></a></div>
+    <div style="position: absolute; top: 10px; left: 10px;">
+      <a href="home.html"><img src="images/Home Frog.png" alt="home frog"></a>
+    </div>
     <br>
     <h1>Cabbage</h1>
-    
+    <ul class="breadcrumb">
+      <li><a href="ceramics.html">Ceramics</a></li>
+      <li><a href="cabbage.html">Cabbage</a></li>
+    </ul>
     <p>In Portugal everyone knows and most likely owns a piece of Bordalo Pinheiro ceramics. If there were a poll on which is the most commonly owned, the cabbage would undoubtedly come out on top. The cabbage was the first ceramic design that Bordalo Pinheiro came up with. It was an instant success in the commercial market being replicated thousands of times, always handmade in his factory. It even reached success in the United States, and the United Kingdom going on to win multiple awards for it’s design. This was before Portugal fell into dictatorship, and the trade borders were inevitably closed. The cabbage became a symbol of joy, and creativity inspiring many other artists to either join Bordalo Pinheiro in creating his vision, or coming up with their own unique designs. It’s a staple of Portuguese culture that can be found internationally. There’s even devoted collectors that buy imperfect pieces to add to their vast collection.  </p>
     <br>
 <p2> Em Portugal toda a gente conhece, e provavelmente tem uma peça de cerâmica Bordalo Pinheiro. Se houvesse um voto em qual peça é mais popular, a couve ganhava sem dúvida. A couve foi a primeira peça de cerâmica que o Bordalo Pinheiro inventou. Foi um sucesso instantâneo no mercado comercial sendo replicada milhares de vezes, sempre dentro da fábrica dele. Até teve imenso sucesso na América e nos Estados Unidos, ganhando vários prêmios por seu design. Isto foi antes de Portugal cair numa ditadura, e as fronteiras de troca fecharem. A couve passou a ser um símbolo de alegria, e criatividade inspirando outros artistas a ajudarem Bordalo Pinheiro a concretizar a visão dele, ou serem inspirados a criarem a sua própria visão. A couve é uma peça icônica da cultura Portuguesa que pode ser encontrada internacionalmente. Até existem colectores dedicados a encontrar couves imperfeitas para adicionar à sua vasta coleção.
 </p2>
-  </body>
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
+  <img src="images/cabbageceramic.jpg" alt="Cabbage 1" style="width: 100%; height: auto;">
+  <img src="images/cabbageceramic2.jpg" alt="Cabbage 2" style="width: 100%; height: auto;">
+  <img src="images/cabbageceramic3.jpg" alt="Cabbage 3" style="width: 100%; height: auto;">
+  <img src="images/cabbageceramic4.jpg" alt="Cabbage 4" style="width: 100%; height: auto;">
+</div>
+
+<img src="images/cabbageleafs.png" alt="cabbage 1" style="position: absolute; top: 130%; right: -100px; transform: translateY(-50%); width: 300px; height: auto;">
+<img src="images/cabbageimage.png" alt="cabbage 2" style="position: absolute; top: 90%; left: -150px; transform: translateY(-50%); width: 300px; height: auto;">
+</body>

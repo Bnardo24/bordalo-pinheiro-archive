@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Bordalo Pinheiro</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="images/favicon.gif">
-    <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">
-    <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">     
-  </head>
-   
-  <!-- this is how you write a comment describing your code in HTML. the body section is for all content that is visible. K</p>eep it here! Semantic structure is just as important as syntax. -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Bordalo Pinheiro Archive</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.gif">
+        <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">
+        <link rel="stylesheet" href="https://use.typekit.net/hvz0xvm.css">
+        <style>
+           
+          body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+            scroll-behavior: smooth;
+          }
 
-  <body>
-    
-    
-    <h1>Bordalo Pinheiro Archive</h1>
-    <h2>An Archive Website</h2>
-    <h3>for Bordalo Pinheiro</h3>
-    <a href="#chapter1"> Chapter 1: First Chapter</a>
-    <p style="color:rgb(0, 255, 76);"> <span style="color: black;">is</span> the website of the Bordalo Pinheiro Archive. </p>
-    <ol>
+          body {
+            background-image: url('images/Background Pattern.jpg');
+          }
 
-      <!--
-      <li> Whatever this is a list</li>
-      <li> <span style="color: green;">Whatever<sup> (bad) </sup></li>
-    </ol>
-      -->
-    <div><a href="about.html">About</a></div>
-    <div><a href="ceramics.html">Ceramics</a></div>
-    <div><a href="resources.html">Resources</a></div>
-    <div><a href="brand.html">Brand Board</a></div>
+          body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('images/swallow.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            z-index: -1;
+          }
+            
+            h1 {
+                text-align: center;
+                z-index: auto;
+                background:transparent
+
+            }
+            
+            img[src='images/favicon.gif']{
+                
+                width: 300px;
+                height: 300px;
+                display: block;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+                padding:50px;
+                z-index: auto;
+                background: none;
+                
+}
+
+           
+
+
+        </style>
+
+
+    </head>
+
+    <body>
+
+    <div>
+    <a href="home.html"> <img src="images/favicon.gif" alt="splash button"></a>
+    </div>
     <br>
     <br>
-
-   
-   
-   
-   
-   
-   
-    <h4 id="chapter1">Chapter 1: First Chapter</h4>
-
-    <!--
-    <div>
-      <a href="#top"> Back to Top</a>
-    </div>
-    -->
     
-    <div>
-      <a href="#top" class="backtotop">Back to Top</a>
-
-    </div>
-
-   
-
-  </body>
+        <h1>Bordalo Pinheiro Archive</h1>
+        
+    </body>
 </html>
