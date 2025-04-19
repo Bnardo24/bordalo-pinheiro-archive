@@ -16,6 +16,12 @@ body {
   font-style: normal;
 }
 
+@media (max-width: 500px) {
+  .single .entry-content > [style*="justify;"] {
+    text-align: left !important;
+  }
+}
+
  /*
   a:link {
     color: rgb(9, 115, 244);
